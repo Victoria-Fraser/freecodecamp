@@ -1,0 +1,38 @@
+#title {
+    text-align: center;
+    font-family: monospace;
+    margin: 30px 20px 40px 20px;
+    font-size: 35px;
+    color: midnightblue;
+}
+
+#img-caption {text-align: center;
+margin-top: 10px;
+color: rgb(4, 47, 163);
+font-family: monospace;
+}
+p {
+    text-align: justify;
+    margin-left: 80px;
+    margin-right: 80px;
+    color: rgb(4, 47, 163);
+    
+    
+}
+div {background-color: rgb(201, 205, 219);
+    padding: 5px 5px 5px 5px;
+    border-radius: 12%;
+    margin: 20px 10px 20px 10px;
+}
+.img-round {
+    max-width: 100%;
+    width: 50%;
+    border-radius: 10%;
+    margin: auto;
+    display:block;
+}
+h3 {text-align: center;
+color: midnightblue;
+font-size: 25px;
+}
+.link-tab {color: darkred;}
