@@ -1,0 +1,138 @@
+body {background-color: rgb(241, 202, 184);
+
+}
+#header-img {width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    padding: 15px 10px 15px 10px;
+    margin-top: 100px;
+
+}
+#nav-bar {position: fixed;
+    top: 0;
+    color: blueviolet;
+    margin-left: 30%;
+    
+    text-align: center;
+}
+@media (max-width: 600px) {#nav-bar {position: fixed;
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0 50px;}
+    nav ol {
+    padding-bottom: 5px;}}
+nav > ol {width: 35vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+    padding: 15px 10px 15px 10px;
+    background-color: rgb(245, 239, 245);
+    color: blueviolet;}
+    
+
+ 
+ol .nav-link {color: rgb(0, 0, 0);
+
+ }
+ .container { max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+    background-color:rgb(241, 202, 184);
+    padding: 10px 10px 20px 10px;
+ }
+ h2 {font-size: 30px;
+text-align: center;}
+.features {text-align: left;
+
+}
+.level {text-align: center;
+
+}
+ol {text-align: center;
+
+}
+#form {text-align: center;
+    margin-right: 25px;
+    
+
+}
+.button {text-align: center;
+    padding: 0px 20px;
+    height: 40px;
+    border: 3px black solid;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-bottom: 15px;
+    margin-left: 15px;
+}
+.grid {display: flex;
+    margin: 15px 20px 15px 20px;
+    padding: 5px 10px 5px 10px;
+    text-align: left;
+    border: 2px solid #000;
+    border-radius: 3px;
+    background-color: whitesmoke;
+}
+p {margin: 15px 20px 15px 20px;
+    text-align: center;
+}
+img {display: block;
+    width: auto;
+    margin-right: 25px;
+    margin-top: 30px;
+}
+.product{display: grid;
+    grid-template-columns: auto;
+    width: 25%;
+    align-items: center;
+
+}
+#first {float: left;
+    margin-right: 30px;
+    margin-top: 45px;
+    margin-left: 7%;
+    text-align: center;
+    border: 3px black solid;
+    padding-right: 15px;
+    padding-top: 15px;
+    background-color: whitesmoke;
+}
+#second {float: left;
+    margin-right: 30px;
+    margin-top: 45px;
+    text-align: center;
+    border: 3px black solid;
+    padding-right: 15px;
+    padding-top: 15px;
+    background-color: whitesmoke;
+}
+#third {float: left;
+    margin-right: 30px;
+    margin-top: 45px;
+    text-align: center;
+    border: 3px black solid;
+    padding-right: 15px;
+    padding-top: 15px;
+    background-color: whitesmoke;
+}
+
+#your-photographer {margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+#your-photographer > iframe {max-width: 560px;
+    width: 100%;
+    }
+
+
+
+
+
+
+ 
